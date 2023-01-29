@@ -3,7 +3,16 @@ import React from "react";
 const App = () => {
   return (
     <div>
-      <p>Your cleaned App component</p>
+      <div className="navbar"></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
+      <div className="section "></div>
     </div>
   );
 };
