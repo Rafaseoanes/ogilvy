@@ -13,9 +13,20 @@ const App = () => {
             <ul>BLOG</ul>
           </li>
         </div>
-        <button style={{ 'height': '25px', 'border': 'none', 'backgroundColor': 'white', 'width': '75px' }} >SIGN IN</button>
+        <button style={{ 'height': '22px', 'border': 'none', 'backgroundColor': 'white', 'width': '75px' }} >SIGN IN</button>
       </div>
-      <div className="section "></div>
+      <div className="section">
+        <div className="hero">
+        <div className="heroFraction fractionOne">
+          <h3 className="uiText">UI<span className="uiPoint">.</span></h3>
+          <h4 className="beginnerText">BEGINNER'<span className="beginnerS">s</span></h4>
+          <h5>• BECOME A PRO-DESIGNER</h5>
+        </div>
+        <div className="heroFraction"></div>
+        <div className="heroFraction"></div>
+        </div>
+        <div className="heroBase"></div>
+      </div>
       <div className="section "></div>
       <div className="section "></div>
       <div className="section "></div>
