@@ -11,6 +11,8 @@ body {
   color: white;
   background-color: #171717;
   padding-top: 20px;
+  /* overflow: hidden; */
+
 }
 
 .section {
@@ -27,27 +29,78 @@ body {
 .topList {
   display: none;
 }
+
 .hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
   padding: 20px;
+  height: 100%;
 }
-.fractionOne{
- padding: auto;
+
+.fractionOne {
+  padding: 50px 0px;
+  transform: scale(0.7);
 }
-.uiText{
-  font-size: 90px;
+
+.fractionOne h5 {
+  text-align: center;
+  margin-top: -80px;
 }
-.uiPoint{
+
+.fractionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px
+}
+
+.fractionThree {
+  display: none;
+}
+
+.heroBase {
+  width: 100vw;
+  height: 170px;
+  background-color: #171717;
+  position: relative;
+  bottom: 30px;
+  -webkit-box-shadow: 0px 0px 29px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 29px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 29px 7px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+}
+.plus{
   color: #a460f9;
 }
-.beginnerText{
-  writing-mode: tb-rl  ;
+.thinText{
+  font-weight: 300;
+}
+
+
+.uiText {
+  font-size: 90px;
+}
+
+.uiPoint {
+  color: #a460f9;
+}
+
+.beginnerText {
+  writing-mode: tb-rl;
   transform: scale(-1, -1);
   font-weight: 300;
   font-size: x-large;
   letter-spacing: 4px;
   margin: 20px 10px;
 }
-.beginnerS{
+
+.beginnerS {
   font-weight: 600;
 }
 
@@ -80,17 +133,35 @@ body {
     grid-row-gap: 0px;
     padding: 20px;
     height: 100%;
+
   }
 
   .heroFraction {
     height: 100%;
-    background-color: rgba(222, 222, 222, 0.073);
   }
-  .heroBase{
-    width: 100%;
-    height: 100px;
-    background-color: rgba(255, 99, 71, 0.084);
-    position: fixed;
-    top: 34em;
+
+  .fractionOne {
+    transform: scale(1);
   }
+
+  .fractionThree {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .year {
+    border: 2px solid white;
+    padding: 10px 25px;
+    font-size: small;
+    font-weight: 600;
+    width: fit-content;
+    position: absolute;
+    top: 150px;
+    right: -3px;
+  }
+
+
 }
