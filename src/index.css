@@ -7,5 +7,28 @@
 }
 
 body {
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-family: 'Krub', sans-serif;
+  color: white;
+  background-color: #171717;
+}
+.section{
+  height: 80vh;
+}
+.navbar{
+  display: none;
+}
+@media(min-width: 900px) {
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar li {
+    display: flex;
+    list-style: none;
+  }
+  .navbar li ul {
+    margin: 0px 40px;
+  }
+  
 }
