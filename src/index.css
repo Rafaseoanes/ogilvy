@@ -10,24 +10,33 @@ body {
   font-family: 'Krub', sans-serif;
   color: white;
   background-color: #171717;
+  padding-top: 20px;
 }
 .section{
   height: 80vh;
 }
 .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+.topList{
   display: none;
 }
 @media(min-width: 900px) {
-  .navbar{
+  .topList{
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .navbar li {
+  .topList li {
     display: flex;
     list-style: none;
+    font-size: small;
+    font-weight: 700;
   }
-  .navbar li ul {
+  .topList li ul {
     margin: 0px 40px;
   }
   
