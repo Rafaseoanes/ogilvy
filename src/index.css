@@ -11,12 +11,13 @@ body {
   color: white;
   background-color: #171717;
   padding-top: 20px;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 
 }
 
 .section {
   height: 80vh;
+
 }
 
 .navbar {
@@ -63,7 +64,7 @@ body {
 
 .heroBase {
   width: 100vw;
-  height: 170px;
+  height: 150px;
   background-color: #171717;
   position: relative;
   bottom: 30px;
@@ -73,15 +74,18 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: x-large;
-}
-.plus{
-  color: #a460f9;
-}
-.thinText{
-  font-weight: 300;
+  text-align: center;
+  
 }
 
+.plus {
+  color: #a460f9;
+  font-weight: bold;
+}
+
+.thinText {
+  font-weight: 300;
+}
 
 .uiText {
   font-size: 90px;
@@ -103,7 +107,27 @@ body {
 .beginnerS {
   font-weight: 600;
 }
-
+.skills{
+  margin-top: 50px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+}
+.skillsCenter{
+  padding-top: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#atomShape{
+  position: relative;
+  max-width: 850px;
+  bottom: 270px;
+  
+}
 @media(min-width: 900px) {
   .topList {
     display: flex;
@@ -150,6 +174,11 @@ body {
     flex-direction: column;
     justify-content: center;
 
+  }
+
+  .heroBase {
+    font-size: 23px;
+    
   }
 
   .year {

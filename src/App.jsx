@@ -38,18 +38,39 @@ const App = () => {
           </div>
         </div>
         <div className="heroBase">
-          <h5> <span className="firtsLetter"> <span className="plus">+</span>150 </span> <span className="thinText">HAPPY</span> STUDENTS</h5>
-          <h5> <span className="firtsLetter"> <span className="plus">+</span>50 </span> <span className="thinText">CERTIDIED</span> COURSES</h5>
-          <h5> <span className="firtsLetter"> <span className="plus">+</span>1000 </span> <span className="thinText">AWARDS</span> RECEIVED</h5>
+          <div style={{ 'display': 'flex', 'alignItems': 'center' }} >
+            <div style={{ 'marginRight': '10px' }}><h5 style={{ 'fontSize': '45px' }}> <span className="plus">+</span>150</h5></div>
+            <div><h5 style={{ 'textAlign': 'left' }}><span className="thinText">HAPPY</span> <br /> STUDENTS</h5></div>
+          </div>
+          <div style={{ 'display': 'flex', 'alignItems': 'center' }} >
+            <div style={{ 'marginRight': '10px' }}><h5 style={{ 'fontSize': '45px' }}> <span className="plus">+</span>50</h5></div>
+            <div><h5 style={{ 'textAlign': 'left' }}><span className="thinText">CERTIFIED</span> <br /> COURSES</h5></div>
+          </div>
+          <div style={{ 'display': 'flex', 'alignItems': 'center' }} >
+            <div style={{ 'marginRight': '10px' }}><h5 style={{ 'fontSize': '45px' }}> <span className="plus">+</span>1000</h5></div>
+            <div><h5 style={{ 'textAlign': 'left' }}><span className="thinText">AWARDS</span> <br /> RECEIVED</h5></div>
+          </div>
         </div>
+      </div>
+      <div className="section ">
+       <div className="skills">
+        <h4 style={{'writingMode': 'tb-rl','transform': 'scale(-1, -1)', 'margin': '30px'}}>■ DISCOVER YOUR SKILLS</h4>
+        <div className="skillsCenter">
+        <h2 style={{'textAlign':'center', 'fontSize': '60px', 'marginTop': '220px'}}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
+        <img id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
+        </div>
+        <h4 style={{'writingMode': 'tb-rl', 'margin': '30px'}}>■ DISCOVER YOUR SKILLS</h4>
+       </div>
+       <div>
+        hello
+       </div>
       </div>
       <div className="section "></div>
       <div className="section "></div>
       <div className="section "></div>
       <div className="section "></div>
       <div className="section "></div>
-      <div className="section "></div>
-      <div className="section "></div>
+      <div className="section"></div>
       <div className="footer "></div>
     </div>
   );
