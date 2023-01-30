@@ -46,24 +46,25 @@ const App = () => {
             <div style={{ 'marginRight': '10px' }}><h5 style={{ 'fontSize': '45px' }}> <span className="plus">+</span>50</h5></div>
             <div><h5 style={{ 'textAlign': 'left' }}><span className="thinText">CERTIFIED</span> <br /> COURSES</h5></div>
           </div>
-          <div style={{ 'display': 'flex', 'alignItems': 'center' }} >
+          <div className="infoHide"  >
             <div style={{ 'marginRight': '10px' }}><h5 style={{ 'fontSize': '45px' }}> <span className="plus">+</span>1000</h5></div>
             <div><h5 style={{ 'textAlign': 'left' }}><span className="thinText">AWARDS</span> <br /> RECEIVED</h5></div>
           </div>
         </div>
       </div>
       <div className="section ">
-       <div className="skills">
-        <h4 style={{'writingMode': 'tb-rl','transform': 'scale(-1, -1)', 'margin': '30px'}}>■ DISCOVER YOUR SKILLS</h4>
-        <div className="skillsCenter">
-        <h2 style={{'textAlign':'center', 'fontSize': '60px', 'marginTop': '220px'}}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
-        <img id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
+        <div className="skills">
+          <h4 className="skillsRight">■ DISCOVER YOUR SKILLS</h4>
+          <div className="skillsCenter">
+            <h2 style={{ 'textAlign': 'center', 'fontSize': '60px', 'marginTop': '220px' }}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
+            <img id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
+          </div>
+          <h4 className="skillsLeft">■ DISCOVER YOUR SKILLS</h4>
         </div>
-        <h4 style={{'writingMode': 'tb-rl', 'margin': '30px'}}>■ DISCOVER YOUR SKILLS</h4>
-       </div>
-       <div>
-        hello
-       </div>
+        <div className="skillsAbout">
+          <h2>EXPLORE</h2>
+          <h2>ABOUT</h2>
+        </div>
       </div>
       <div className="section "></div>
       <div className="section "></div>
@@ -71,7 +72,29 @@ const App = () => {
       <div className="section "></div>
       <div className="section "></div>
       <div className="section"></div>
-      <div className="footer "></div>
+      <div className="footer ">
+        <div>
+          <ul style={{ 'listStyle': 'none' }}>
+            <h5 style={{ 'fontSize': '23px', 'borderBottom': '2px solid white', 'marginBottom': '15px' }}>About</h5>
+            <li>History</li>
+            <li>Our team</li>
+            <li>Mission statement</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div>
+          <ul style={{ 'listStyle': 'none' }}>
+            <h5 style={{ 'fontSize': '23px', 'borderBottom': '2px solid white', 'marginBottom': '15px' }}>What we do</h5>
+            <li>News and stories</li>
+            <li>Publications</li>
+            <li>Take action</li>
+            <li>Recomandations</li>
+            <li>Help</li>
+          </ul>
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };
