@@ -13,7 +13,7 @@ const App = () => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -49,7 +49,7 @@ const App = () => {
           <div className="heroFraction fractionOne">
             <h3 className="uiText">UI<span className="uiPoint">.</span></h3>
             <h4 className="beginnerText">BEGINNER'<span className="beginnerS">s</span></h4>
-            <h5>■ BECOME A <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRO-DESIGNER</h5>
+            <h5 className="slogan">■ BECOME A <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRO-DESIGNER</h5>
           </div>
           <div className="heroFraction fractionTwo">
             <img style={{ 'height': '80vh' }} src="https://i.imgur.com/kW00Dc0.png" alt="developer" />
@@ -61,8 +61,8 @@ const App = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, delectus nihil dolores nobis. </p>
             <br />
             <div>
-              <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>LET'S START</button>
-              <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#171717', 'width': '95px' }}>READ MORE</button>
+              <button style={{ 'height': '35px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '125px' }}>LET'S START</button>
+              <button style={{ 'height': '35px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#171717', 'width': '125px' }}>READ MORE</button>
             </div>
           </div>
         </div>
@@ -181,9 +181,18 @@ const App = () => {
 
           </Slider>
         </div>
+        <br />
+        <br />
+        <h6 style={{'textAlign': 'center'}}>MORE COURSES &nbsp; &nbsp; &nbsp;<span style={{'fontSize': '40px', 'fontWeight':'300'}}>&#10230;</span></h6>
       </div>
       <div className="section "></div>
-      <div className="section "></div>
+      <div className="section videoSection">
+        <h5 style={{'lineHeight': '17px'}} className="skillsLeft"> <span style={{'fontSize': '40px', 'fontWeight':'300'}}> &#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GET STARTED</h5>
+        <div className="videoFrame">
+      <iframe className="video"  src="https://www.youtube.com/embed/v6EjmbMgv80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h5 style={{'lineHeight': '17px'}} className="skillsRight"> <span style={{'fontSize': '40px', 'fontWeight':'300'}}>&#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  GET STARTED</h5>
+      </div>
       <div className="section "></div>
       <div className="section "></div>
       <div className="section"></div>
