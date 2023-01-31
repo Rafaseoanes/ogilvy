@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -148,6 +149,35 @@ body {
 .footer{
   height: 60vh;
   background-color: #a460f9;
+}
+.coursesTitle{
+  padding: 35px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.carrouselCard{
+  border: 2px white solid;
+  padding: 30px;
+  
+}
+.cornerNumber{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  color: #171717;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 30px;
+  top: -30px
+  
+}
+.slick-slide {
+  padding: 0 30px;
+  box-sizing: border-box;
 }
 
 @media(min-width: 900px) {
