@@ -16,7 +16,7 @@ body {
 }
 
 .section {
-  height: 80vh;
+  padding: 45px 0px;
 
 }
 
@@ -114,12 +114,11 @@ body {
 }
 
 .skills {
-  margin-top: 50px;
-  padding-top: 70px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80%;
+  
 }
 
 .skillsCenter {
@@ -152,7 +151,7 @@ body {
 }
 
 .footer {
-  height: 60vh;
+  padding: 60px 0px;
   background-color: #a460f9;
 }
 
@@ -299,11 +298,11 @@ body {
     padding: 0 40px;
     font-size: x-large;
     color: #262626;
-    margin-top: 70px;
+    
   }
 
   .skillsCenter {
-    padding-top: 380px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,7 +336,7 @@ body {
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
-    padding: 20px 80px;
+    padding: 100px 80px;
     align-items: center;
 
   }
