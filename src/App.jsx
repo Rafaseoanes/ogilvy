@@ -156,25 +156,25 @@ const App = () => {
             </div>
 
             <div className="carrouselCard">
-            <div className="cornerNumber">.05</div>
+              <div className="cornerNumber">.05</div>
               <h3>COURSE <span className="uiPoint">05</span></h3>
               <p style={{ 'color': '#a460f9', 'fontWeight': '700' }}>_____</p>
-              
+
               <br />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ducimus facilis asperiores? Corporis fugiat.</p>
-             
+
               <br />
               <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
             </div>
 
             <div className="carrouselCard">
-            <div className="cornerNumber">.06</div>
+              <div className="cornerNumber">.06</div>
               <h3>COURSE <span className="uiPoint">06</span></h3>
               <p style={{ 'color': '#a460f9', 'fontWeight': '700' }}>_____</p>
-              
+
               <br />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ducimus facilis asperiores? Corporis fugiat.</p>
-              
+
               <br />
               <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
             </div>
@@ -183,22 +183,22 @@ const App = () => {
         </div>
         <br />
         <br />
-        <h6 style={{'textAlign': 'center'}}>MORE COURSES &nbsp; &nbsp; &nbsp;<span style={{'fontSize': '40px', 'fontWeight':'300'}}>&#10230;</span></h6>
+        <h6 style={{ 'textAlign': 'center' }}>MORE COURSES &nbsp; &nbsp; &nbsp;<span style={{ 'fontSize': '40px', 'fontWeight': '300' }}>&#10230;</span></h6>
       </div>
       <div className="section ">
         <div className="aboutUs">
           <div>
-            <h5 style={{'fontSize': '60px'}} >About <span style={{ 'fontWeight': '300'}} className="uiPoint">us.</span></h5>
+            <h5 style={{ 'fontSize': '60px' }} >About <span style={{ 'fontWeight': '300' }} className="uiPoint">us.</span></h5>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel soluta ex quae ut, commodi corporis debitis a nobis provident consequatur qui, error doloribus impedit tempora sint alias aliquam. Quia.</p>
-          <ul>
-            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
-            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
-            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
-            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
-            
-          </ul>
-          <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
+            <ul>
+              <li> <span style={{ 'color': '#a460f9' }}>■</span> Lorem ipsum dolor.</li>
+              <li> <span style={{ 'color': '#a460f9' }}>■</span> Lorem ipsum dolor.</li>
+              <li> <span style={{ 'color': '#a460f9' }}>■</span> Lorem ipsum dolor.</li>
+              <li> <span style={{ 'color': '#a460f9' }}>■</span> Lorem ipsum dolor.</li>
+
+            </ul>
+            <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
 
           </div>
           <div>
@@ -208,49 +208,51 @@ const App = () => {
       </div>
       <div className="section ">
         <div className="aboutUs">
-        <div>
+          <div>
             <img src="https://i.imgur.com/IxKFaZV.png" alt="about" />
           </div>
           <div>
-            <h5 style={{'fontSize': '60px'}} >Why <span style={{ 'fontWeight': '300'}} className="uiPoint">us.</span></h5>
+            <h5 style={{ 'fontSize': '60px' }} >Why <span style={{ 'fontWeight': '300' }} className="uiPoint">us.</span></h5>
             <br />
             <br />
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel soluta ex quae ut, commodi corporis debitis a nobis provident consequatur qui, error doloribus impedit tempora sint alias aliquam. Quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa corporis natus temporibus est veniam esse nesciunt! Assumenda, quaerat tempora repellendus, ipsum ipsam sequi hic minima eligendi, suscipit sunt corporis!</p>
-          <br />
-          <br />
-          <br />
-          <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
+            <br />
+            <br />
+            <br />
+            <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
 
           </div>
-          
+
         </div>
       </div>
       <div className="section videoSection">
-        <h5 style={{'lineHeight': '17px'}} className="skillsLeft"> <span style={{'fontSize': '40px', 'fontWeight':'300'}}> &#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GET STARTED</h5>
+        <h5 style={{ 'lineHeight': '17px' }} className="skillsLeft"> <span style={{ 'fontSize': '40px', 'fontWeight': '300' }}> &#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GET STARTED</h5>
         <div className="videoFrame">
-      <iframe className="video"  src="https://www.youtube.com/embed/v6EjmbMgv80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe className="video" src="https://www.youtube.com/embed/v6EjmbMgv80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <h5 style={{'lineHeight': '17px'}} className="skillsRight"> <span style={{'fontSize': '40px', 'fontWeight':'300'}}>&#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  GET STARTED</h5>
+        <h5 style={{ 'lineHeight': '17px' }} className="skillsRight"> <span style={{ 'fontSize': '40px', 'fontWeight': '300' }}>&#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  GET STARTED</h5>
       </div>
-      <div>
+      <div className="section ">
         <div className="aboutUs">
-        <div>
-            <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-25px'}} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
-          </div>
           <div>
-            <h5 style={{'fontSize': '60px'}} >Why <span style={{ 'fontWeight': '300'}} className="uiPoint">us.</span></h5>
+            <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-25px' }} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
+          </div>
+          <div style={{ 'textAlign': 'center' }}>
+            <h5 style={{ 'fontSize': '50px', 'textAlign': 'center', 'fontWeight': '700' }} >SUBSCRIBE <br /><span style={{ 'fontSize': '45px', 'fontWeight': '300' }} className="uiPoint">to our newsletter</span></h5>
             <br />
+            <input style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="NAME" />
             <br />
+            <input style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="MAIL" />
             <br />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel soluta ex quae ut, commodi corporis debitis a nobis provident consequatur qui, error doloribus impedit tempora sint alias aliquam. Quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa corporis natus temporibus est veniam esse nesciunt! Assumenda, quaerat tempora repellendus, ipsum ipsam sequi hic minima eligendi, suscipit sunt corporis!</p>
-          <br />
-          <br />
-          <br />
-          <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
+            {/* <input style={{ 'margin': '10px', 'padding': '15px', 'width': '60%', 'height': '30%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="MESSAGE" /> */}
+            <textarea style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'height': '30%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} placeholder="MESSAGE"></textarea> 
+            <br />
+            
+            <button style={{ 'height': '35px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '165px' }}>SEND MESSAGE</button>
 
           </div>
-          
+
         </div>
       </div>
       <div className="footer ">
