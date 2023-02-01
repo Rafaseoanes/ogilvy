@@ -12,7 +12,10 @@ body {
   background-color: #171717;
   padding-top: 20px;
   overflow-x: hidden;
-
+}
+body a {
+  color: white;
+  text-decoration: none;
 }
 
 .section {

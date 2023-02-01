@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -30,6 +31,11 @@ const App = () => {
         }
       }]
   };
+  const [enteredText, setEnteredText] = useState();
+  const sendMessage = () => {
+    alert("Message sent");
+    setEnteredText('');
+  }
   return (
     <div>
       <div className="navbar">
@@ -37,9 +43,9 @@ const App = () => {
         <div className="topList">
           <li>
             <ul>HOME</ul>
-            <ul>ABOUT</ul>
-            <ul>COURSES</ul>
-            <ul>BLOG</ul>
+            <ul> <a href="#about">ABOUT</a></ul>
+            <ul> <a href="#courses">COURSES</a></ul>
+            <ul> <a href="#blog">BLOG</a></ul>
           </li>
         </div>
         <button style={{ 'height': '22px', 'border': 'none', 'backgroundColor': 'white', 'width': '75px' }} >SIGN IN</button>
@@ -95,7 +101,7 @@ const App = () => {
           <h2>ABOUT</h2>
         </div>
       </div>
-      <div className="section ">
+      <div id="courses" className="section ">
         <div className="coursesTitle">
           <h5><span style={{ 'fontSize': '65px', 'fontWeight': '700' }}>FIND </span > <span style={{ 'fontSize': '25px', 'fontWeight': '300', 'letterSpacing': '4px' }}> Your Course.</span></h5>
           <h5>■ <span style={{ 'fontSize': '10px', 'fontWeight': '300' }}> EDITION</span><br /><span>&nbsp;&nbsp;&nbsp;2023</span></h5>
@@ -185,7 +191,7 @@ const App = () => {
         <br />
         <h6 style={{ 'textAlign': 'center' }}>MORE COURSES &nbsp; &nbsp; &nbsp;<span style={{ 'fontSize': '40px', 'fontWeight': '300' }}>&#10230;</span></h6>
       </div>
-      <div className="section ">
+      <div id="about" className="section ">
         <div className="aboutUs">
           <div>
             <h5 style={{ 'fontSize': '60px' }} >About <span style={{ 'fontWeight': '300' }} className="uiPoint">us.</span></h5>
@@ -233,23 +239,23 @@ const App = () => {
         </div>
         <h5 style={{ 'lineHeight': '17px' }} className="skillsRight"> <span style={{ 'fontSize': '40px', 'fontWeight': '300' }}>&#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  GET STARTED</h5>
       </div>
-      <div className="section ">
+      <div id="blog" className="section ">
         <div className="aboutUs">
           <div>
-            <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-25px' }} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
+            <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-70px' }} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
           </div>
           <div style={{ 'textAlign': 'center' }}>
             <h5 style={{ 'fontSize': '50px', 'textAlign': 'center', 'fontWeight': '700' }} >SUBSCRIBE <br /><span style={{ 'fontSize': '45px', 'fontWeight': '300' }} className="uiPoint">to our newsletter</span></h5>
             <br />
-            <input style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="NAME" />
+            <input value={enteredText} style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="NAME" />
             <br />
-            <input style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="MAIL" />
+            <input value={enteredText} style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="MAIL" />
             <br />
             {/* <input style={{ 'margin': '10px', 'padding': '15px', 'width': '60%', 'height': '30%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} type="text" placeholder="MESSAGE" /> */}
-            <textarea style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'height': '30%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} placeholder="MESSAGE"></textarea> 
+            <textarea value={enteredText} style={{ 'margin': '15px', 'padding': '15px', 'width': '65%', 'height': '30%', 'border': 'solid 2px #a460f9', 'backgroundColor': '#171717', 'color': 'white' }} placeholder="MESSAGE"></textarea>
             <br />
-            
-            <button style={{ 'height': '35px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '165px' }}>SEND MESSAGE</button>
+
+            <button onClick={sendMessage} style={{ 'height': '35px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '165px' }}>SEND MESSAGE</button>
 
           </div>
 
@@ -276,7 +282,19 @@ const App = () => {
             <li>Help</li>
           </ul>
         </div>
-        <div></div>
+        <div style={{'textAlign': 'right'}}>
+          <h5 style={{ 'fontSize': '30px', 'textAlign': 'right', 'fontWeight': '700' }} >Sign Up To Receive <br /> __ Our Newsletter</h5>
+          <br />
+          <input value={enteredText} style={{ 'margin': '15px 0px', 'padding': '10px', 'width': '65%', 'border': 'solid 2px white', 'backgroundColor': '#a460f9', 'color': 'white' }} type="text"/>
+          <br />
+          <div style={{'display': 'flex', 'alignItems': 'center','justifyContent': 'right'}}>
+
+          <h6 style={{'fontWeight': '300'}}>Follow us!</h6>
+          <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/instagram-circle.png" alt="icon" style={{'margin': '0 15px'}} />
+          <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-circled--v1.png" alt="icon" style={{'margin': '0 15px'}} />
+          <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png" alt="icon" style={{'margin': '0 0 0 15px'}} />
+          </div>
+        </div>
       </div>
     </div>
   );
