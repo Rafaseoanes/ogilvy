@@ -168,7 +168,7 @@ body a {
 
 .carrouselCard {
   border: 2px white solid;
-  padding: 30px;
+  padding: 20px;
 
 }
 
@@ -182,8 +182,8 @@ body a {
   justify-content: center;
   align-items: center;
   position: relative;
-  right: 30px;
-  top: -30px
+  right: 20px;
+  top: -20px
 }
 
 .slick-slide {
@@ -226,6 +226,7 @@ body a {
 .footerBreak{
   display: none;
 }
+
 
 @media(min-width: 900px) {
   .topList {
@@ -299,6 +300,7 @@ body a {
     position: absolute;
     top: 150px;
     right: -3px;
+    overflow: hidden;
   }
 
   .skillsAbout {
@@ -376,7 +378,9 @@ body a {
     grid-row-gap: 0px;
     padding: 35px 0;
   }
-
+ 
+  
+  
 }
 
 @media(max-width: 615px) {
@@ -418,7 +422,7 @@ body a {
   #coursesYear{
     display: none;
   }
-
+  
 
 
 

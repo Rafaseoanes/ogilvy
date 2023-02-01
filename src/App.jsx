@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const App = () => {
   const settings = {
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -23,7 +24,7 @@ const App = () => {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -58,7 +59,7 @@ const App = () => {
             <h5 className="slogan">■ BECOME A <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRO-DESIGNER</h5>
           </div>
           <div className="heroFraction fractionTwo">
-            <img id="heroImage" style={{ 'height': '80vh' }} src="https://i.imgur.com/kW00Dc0.png" alt="developer" />
+            <img id="heroImage" style={{ 'maxHeight': '85vh' }} src="https://i.imgur.com/kW00Dc0.png" alt="developer" />
           </div>
           <div className="heroFraction fractionThree">
             <div className="year">EDITION <br /> 2023</div>
@@ -108,7 +109,7 @@ const App = () => {
         </div>
 
         {/* carrousel */}
-        <div style={{ 'textAlign': 'center', 'padding': '65px 150px 30px 150px' }}>
+        <div>
           <Slider {...settings}>
 
             <div className="carrouselCard">
@@ -208,14 +209,14 @@ const App = () => {
 
           </div>
           <div className="aboutImage" >
-            <img src="https://i.imgur.com/lcaJA7U.png" alt="about" />
+            <img style={{'maxWidth':'50vw'}} src="https://i.imgur.com/lcaJA7U.png" alt="about" />
           </div>
         </div>
       </div>
       <div className="section ">
         <div className="aboutUs">
           <div id="whyImage">
-            <img src="https://i.imgur.com/IxKFaZV.png" alt="about" />
+            <img style={{'maxWidth':'50vw'}} src="https://i.imgur.com/IxKFaZV.png" alt="about" />
           </div>
           <div>
             <h5 style={{ 'fontSize': '60px' }} >Why <span style={{ 'fontWeight': '300' }} className="uiPoint">us.</span></h5>
@@ -239,10 +240,10 @@ const App = () => {
         </div>
         <h5 style={{ 'lineHeight': '17px' }} className="skillsRight"> <span style={{ 'fontSize': '40px', 'fontWeight': '300' }}>&#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  GET STARTED</h5>
       </div>
-      <div id="blog" className="section ">
+      <div  id="blog" className="section ">
         <div className="aboutUs">
-          <div className="aboutImage">
-            <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-70px' }} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
+          <div>
+            <img style={{ 'width': '30vw', 'height':'30vw', 'border': 'solid 2px #a460f9', 'borderRadius': '100%', 'objectFit': 'cover'}} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
           </div>
           <div style={{ 'textAlign': 'center' }}>
             <h5 style={{ 'fontSize': '50px', 'textAlign': 'center', 'fontWeight': '700' }} >SUBSCRIBE <br /><span style={{ 'fontSize': '45px', 'fontWeight': '300' }} className="uiPoint">to our newsletter</span></h5>
