@@ -185,7 +185,47 @@ const App = () => {
         <br />
         <h6 style={{'textAlign': 'center'}}>MORE COURSES &nbsp; &nbsp; &nbsp;<span style={{'fontSize': '40px', 'fontWeight':'300'}}>&#10230;</span></h6>
       </div>
-      <div className="section "></div>
+      <div className="section ">
+        <div className="aboutUs">
+          <div>
+            <h5 style={{'fontSize': '60px'}} >About <span style={{ 'fontWeight': '300'}} className="uiPoint">us.</span></h5>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel soluta ex quae ut, commodi corporis debitis a nobis provident consequatur qui, error doloribus impedit tempora sint alias aliquam. Quia.</p>
+          <ul>
+            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
+            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
+            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
+            <li> <span style={{ 'color': '#a460f9'}}>■</span> Lorem ipsum dolor.</li>
+            
+          </ul>
+          <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
+
+          </div>
+          <div>
+            <img src="https://i.imgur.com/lcaJA7U.png" alt="about" />
+          </div>
+        </div>
+      </div>
+      <div className="section ">
+        <div className="aboutUs">
+        <div>
+            <img src="https://i.imgur.com/IxKFaZV.png" alt="about" />
+          </div>
+          <div>
+            <h5 style={{'fontSize': '60px'}} >Why <span style={{ 'fontWeight': '300'}} className="uiPoint">us.</span></h5>
+            <br />
+            <br />
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel soluta ex quae ut, commodi corporis debitis a nobis provident consequatur qui, error doloribus impedit tempora sint alias aliquam. Quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa corporis natus temporibus est veniam esse nesciunt! Assumenda, quaerat tempora repellendus, ipsum ipsam sequi hic minima eligendi, suscipit sunt corporis!</p>
+          <br />
+          <br />
+          <br />
+          <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
+
+          </div>
+          
+        </div>
+      </div>
       <div className="section videoSection">
         <h5 style={{'lineHeight': '17px'}} className="skillsLeft"> <span style={{'fontSize': '40px', 'fontWeight':'300'}}> &#10230; </span> READY TO <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GET STARTED</h5>
         <div className="videoFrame">
