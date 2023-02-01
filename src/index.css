@@ -13,6 +13,7 @@ body {
   padding-top: 20px;
   overflow-x: hidden;
 }
+
 body a {
   color: white;
   text-decoration: none;
@@ -117,11 +118,11 @@ body a {
 }
 
 .skills {
-  
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .skillsCenter {
@@ -209,6 +210,7 @@ body a {
   align-items: center;
   padding: 0 20px
 }
+
 .aboutUs {
   display: flex;
   flex-direction: column;
@@ -216,9 +218,13 @@ body a {
   text-align: center;
   padding: 0 20px;
 }
+
 .aboutUs ul li {
   list-style: none;
   margin: 20px 0;
+}
+.footerBreak{
+  display: none;
 }
 
 @media(min-width: 900px) {
@@ -301,11 +307,11 @@ body a {
     padding: 0 40px;
     font-size: x-large;
     color: #262626;
-    
+
   }
 
   .skillsCenter {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -371,7 +377,50 @@ body a {
     padding: 35px 0;
   }
 
-  
+}
+
+@media(max-width: 615px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uiText {
+    font-size: 140px;
+    margin-top: 0px;
+  }
+
+  .fractionOne {
+    padding: 0;
+  }
+
+  .beginnerText {
+    display: none;
+  }
+
+  .heroBase {
+    display: flex;
+    flex-direction: column;
+    bottom: 70px;
+  }
+  .aboutImage{
+    display: none;
+  }
+  #whyImage{
+    display: none;
+  }
+  .footer{
+    padding: 30px;
+  }
+  .footerBreak{
+    display: block;
+  }
+  #coursesYear{
+    display: none;
+  }
+
+
+
 
 
 }

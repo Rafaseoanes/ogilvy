@@ -58,7 +58,7 @@ const App = () => {
             <h5 className="slogan">■ BECOME A <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRO-DESIGNER</h5>
           </div>
           <div className="heroFraction fractionTwo">
-            <img style={{ 'height': '80vh' }} src="https://i.imgur.com/kW00Dc0.png" alt="developer" />
+            <img id="heroImage" style={{ 'height': '80vh' }} src="https://i.imgur.com/kW00Dc0.png" alt="developer" />
           </div>
           <div className="heroFraction fractionThree">
             <div className="year">EDITION <br /> 2023</div>
@@ -91,7 +91,7 @@ const App = () => {
         <div className="skills">
           <h4 className="skillsRight">■ &nbsp;&nbsp;DISCOVER YOUR SKILLS</h4>
           <div className="skillsCenter">
-            <h2 style={{ 'textAlign': 'center', 'fontSize': '60px', 'marginTop': '220px' }}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
+            <h2 style={{ 'textAlign': 'center', 'fontSize': '60px'}}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
             <img id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
           </div>
           <h4 className="skillsLeft">■ &nbsp;&nbsp;DISCOVER YOUR SKILLS</h4>
@@ -104,7 +104,7 @@ const App = () => {
       <div id="courses" className="section ">
         <div className="coursesTitle">
           <h5><span style={{ 'fontSize': '65px', 'fontWeight': '700' }}>FIND </span > <span style={{ 'fontSize': '25px', 'fontWeight': '300', 'letterSpacing': '4px' }}> Your Course.</span></h5>
-          <h5>■ <span style={{ 'fontSize': '10px', 'fontWeight': '300' }}> EDITION</span><br /><span>&nbsp;&nbsp;&nbsp;2023</span></h5>
+          <h5 id="coursesYear">■ <span style={{ 'fontSize': '10px', 'fontWeight': '300' }}> EDITION</span><br /><span>&nbsp;&nbsp;&nbsp;2023</span></h5>
         </div>
 
         {/* carrousel */}
@@ -207,14 +207,14 @@ const App = () => {
             <button style={{ 'height': '32px', 'margin': '5px', 'color': 'white', 'border': 'none', 'backgroundColor': '#a460f9', 'width': '95px' }}>READ MORE</button>
 
           </div>
-          <div>
+          <div className="aboutImage" >
             <img src="https://i.imgur.com/lcaJA7U.png" alt="about" />
           </div>
         </div>
       </div>
       <div className="section ">
         <div className="aboutUs">
-          <div>
+          <div id="whyImage">
             <img src="https://i.imgur.com/IxKFaZV.png" alt="about" />
           </div>
           <div>
@@ -241,7 +241,7 @@ const App = () => {
       </div>
       <div id="blog" className="section ">
         <div className="aboutUs">
-          <div>
+          <div className="aboutImage">
             <img style={{ 'width': '50vw', 'position': 'relative', 'left': '-200px', 'bottom': '-70px' }} src="https://i.imgur.com/Bd4ANxi.png" alt="about" />
           </div>
           <div style={{ 'textAlign': 'center' }}>
@@ -261,7 +261,7 @@ const App = () => {
 
         </div>
       </div>
-      <div className="footer ">
+      <div className="footer">
         <div>
           <ul style={{ 'listStyle': 'none' }}>
             <h5 style={{ 'fontSize': '23px', 'borderBottom': '2px solid white', 'marginBottom': '15px' }}>About</h5>
@@ -272,6 +272,7 @@ const App = () => {
             <li>Privacy Policy</li>
           </ul>
         </div>
+        <br className="footerBreak" />
         <div>
           <ul style={{ 'listStyle': 'none' }}>
             <h5 style={{ 'fontSize': '23px', 'borderBottom': '2px solid white', 'marginBottom': '15px' }}>What we do</h5>
@@ -282,6 +283,7 @@ const App = () => {
             <li>Help</li>
           </ul>
         </div>
+        <br className="footerBreak" />
         <div style={{'textAlign': 'right'}}>
           <h5 style={{ 'fontSize': '30px', 'textAlign': 'right', 'fontWeight': '700' }} >Sign Up To Receive <br /> __ Our Newsletter</h5>
           <br />
