@@ -163,7 +163,9 @@ body a {
   padding: 60px 0px;
   background-color: #a460f9;
 }
-
+#courses{
+  padding: 0px 40px;
+}
 .coursesTitle {
   padding: 35px;
   display: flex;
