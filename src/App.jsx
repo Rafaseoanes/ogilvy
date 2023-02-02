@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 const App = () => {
   const settings = {
     dots: true,
-    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -93,7 +92,7 @@ const App = () => {
           <h4 className="skillsRight">■ &nbsp;&nbsp;DISCOVER YOUR SKILLS</h4>
           <div className="skillsCenter">
             <h2 style={{ 'textAlign': 'center', 'fontSize': '60px'}}>ACCEPT <br /> <span className="thinText">NEW</span> <br /> CHALLENGES</h2>
-            <img id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
+            <img style={{'overflow': 'hidden'}} id="atomShape" src="https://i.imgur.com/NumISy0.png" alt="shapes" />
           </div>
           <h4 className="skillsLeft">■ &nbsp;&nbsp;DISCOVER YOUR SKILLS</h4>
         </div>

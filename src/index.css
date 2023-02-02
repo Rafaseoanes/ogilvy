@@ -18,6 +18,9 @@ body a {
   color: white;
   text-decoration: none;
 }
+.slick-dots li button:before {
+    color: orange;
+  }
 
 .section {
   padding: 45px 0px;
