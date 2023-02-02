@@ -136,8 +136,9 @@ body a {
 
 #atomShape {
   position: relative;
-  max-width: 600px;
+  max-width: 400px;
   top: -160px;
+  overflow: hidden;
 
 
 }
@@ -340,7 +341,7 @@ body a {
 
   #atomShape {
     position: relative;
-    max-width: 850px;
+    max-width: 600px;
     top: -260px;
 
   }
