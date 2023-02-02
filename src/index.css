@@ -233,6 +233,9 @@ body a {
 .footerBreak{
   display: none;
 }
+.footer{
+    padding: 30px;
+  }
 
 
 @media(min-width: 900px) {
